@@ -22,7 +22,30 @@ namespace Ejercicio_12
     {
         static void Main(string[] args)
         {
+            int numero;
+            int acumulador = 0;
+
             Console.Title = "Ejercicio Nro. 12";
+
+            do
+            {
+                Console.Clear();
+                Console.Write("Ingrese un numero: ");
+
+                while (!int.TryParse(Console.ReadLine(), out numero))
+                {
+                    Console.Clear();
+                    Console.Write("ERROR!!! No se ha ingresado un numero. Ingrese un numero: ");
+                }
+
+                acumulador += numero;
+
+                Console.Clear();
+            } while (ValidarRespuesta.ValidaS_N());
+
+            Console.Clear();
+            Console.Write("El valor acumulado es {0}. ", acumulador);
+            Console.ReadKey();
         }
     }
 }

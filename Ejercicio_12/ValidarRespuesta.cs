@@ -14,7 +14,7 @@ namespace Ejercicio_12
             Console.Write("¿Continua? (S/N) ");
             respuesta = Console.ReadLine().ToUpper();
 
-            while (respuesta.Equals("S") || respuesta.Equals("N"))
+            while (!(respuesta.Equals("S") || respuesta.Equals("N")))
             {
                 Console.Clear();
                 Console.Write("ERROR!!! Respuesta invalida. ¿Continua? (S/N) ");
