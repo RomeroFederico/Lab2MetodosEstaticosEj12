@@ -5,9 +5,10 @@ using System.Text;
 
 namespace Ejercicio_12
 {
+
     /*
     12.  Realizar un programa que sume números enteros hasta que el 
-    usuario lo determine, por medio de un mensaje ―¿Continua? (S/N)‖.  
+    usuario lo determine, por medio de un mensaje ―¿Continua? (S/N).  
     En el método estático ValidaS_N() de la clase ValidarRespuesta, 
     se validará el ingreso de opciones.  
     El método NO recibe parámetros y devuelve un valor de tipo 
@@ -17,7 +18,7 @@ namespace Ejercicio_12
     un mensaje de error y pidiendo el reingreso del mismo. 
     */
 
-    class Program
+    class Ejercicio_12
     {
         static void Main(string[] args)
         {
